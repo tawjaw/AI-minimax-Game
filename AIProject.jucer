@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="o2qLVg" name="AIProject" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.AIProject" includeBinaryInAppConfig="1"
+              jucerVersion="4.0.1">
+  <MAINGROUP id="GU3nqI" name="AIProject">
+    <GROUP id="{E64D7AEE-1D1F-A8B4-FBCB-D865E6BBCD84}" name="Source">
+      <FILE id="TVfzaK" name="Minimax.cpp" compile="1" resource="0" file="Source/Minimax.cpp"/>
+      <FILE id="W9SRlX" name="Game.cpp" compile="1" resource="0" file="Source/Game.cpp"/>
+      <FILE id="iBaRkv" name="Minimax.h" compile="0" resource="0" file="Source/Minimax.h"/>
+      <FILE id="a1lnI4" name="bird1.png" compile="0" resource="1" file="Source/bird1.png"/>
+      <FILE id="vSqqss" name="bird1AI.png" compile="0" resource="1" file="Source/bird1AI.png"/>
+      <FILE id="i8jyO5" name="bird2.png" compile="0" resource="1" file="Source/bird2.png"/>
+      <FILE id="GEZKJJ" name="bird3.png" compile="0" resource="1" file="Source/bird3.png"/>
+      <FILE id="Z86eaV" name="bird2AI.png" compile="0" resource="1" file="Source/bird2AI.png"/>
+      <FILE id="DZGLh4" name="bird4.png" compile="0" resource="1" file="Source/bird4.png"/>
+      <FILE id="LDmaBp" name="bird3AI.png" compile="0" resource="1" file="Source/bird3AI.png"/>
+      <FILE id="hb4Gkb" name="bird4AI.png" compile="0" resource="1" file="Source/bird4AI.png"/>
+      <FILE id="Ynzc7v" name="wallpaper2.jpg" compile="0" resource="1" file="Source/wallpaper2.jpg"/>
+      <FILE id="bzRONX" name="Game.h" compile="0" resource="0" file="Source/Game.h"/>
+      <FILE id="GttxXw" name="GameComponent.h" compile="0" resource="0" file="Source/GameComponent.h"/>
+      <FILE id="LNqu2b" name="Common.h" compile="0" resource="0" file="Source/Common.h"/>
+      <FILE id="y2hfbC" name="larvaAI.png" compile="0" resource="1" file="Source/larvaAI.png"/>
+      <FILE id="lO4FYf" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="f4gihx" name="larva.png" compile="0" resource="1" file="Source/larva.png"/>
+      <FILE id="qJmH1X" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="Jez1s5" name="grass.jpg" compile="0" resource="1" file="Source/grass.jpg"/>
+      <FILE id="aKTIdp" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="AIProject"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="AIProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="..\juce-grapefruit-windows\modules"/>
+        <MODULEPATH id="juce_opengl" path="..\juce-grapefruit-windows\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="..\juce-grapefruit-windows\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="..\juce-grapefruit-windows\modules"/>
+        <MODULEPATH id="juce_graphics" path="..\juce-grapefruit-windows\modules"/>
+        <MODULEPATH id="juce_events" path="..\juce-grapefruit-windows\modules"/>
+        <MODULEPATH id="juce_data_structures" path="..\juce-grapefruit-windows\modules"/>
+        <MODULEPATH id="juce_cryptography" path="..\juce-grapefruit-windows\modules"/>
+        <MODULEPATH id="juce_core" path="..\juce-grapefruit-windows\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="..\juce-grapefruit-windows\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="..\juce-grapefruit-windows\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="..\juce-grapefruit-windows\modules"/>
+        <MODULEPATH id="juce_audio_basics" path="..\juce-grapefruit-windows\modules"/>
+      </MODULEPATHS>
+    </VS2015>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_cryptography" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_video" showAllCode="1" useLocalCopy="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+  <LIVE_SETTINGS>
+    <WINDOWS enableCxx11="1"/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>

@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2015
+Project("{EC6C3E3F-A65F-7F2B-0E68-760D08ABB1FB}") = "AIProject", "AIProject.vcxproj", "{B84CFDA0-B325-4701-9485-3C1301FEDA2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B84CFDA0-B325-4701-9485-3C1301FEDA2D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B84CFDA0-B325-4701-9485-3C1301FEDA2D}.Debug|Win32.Build.0 = Debug|Win32
+		{B84CFDA0-B325-4701-9485-3C1301FEDA2D}.Release|Win32.ActiveCfg = Release|Win32
+		{B84CFDA0-B325-4701-9485-3C1301FEDA2D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
