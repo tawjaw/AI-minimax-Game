@@ -31,4 +31,12 @@ The detailed descriotion of the algorithm and the implementation can be found in
 
 ## Screenshots
 ### Main Menu
-![alt text](AI-minimax-Game/screenshots/1MainMenu.png "Main Menu")
+![Screenshot](screenshots/1MainMenu.png)
+### Human Larva vs AI Birds
+![Screenshot](screenshots/2hlvsaib.png)
+### AI Larva vs Human Birds
+![Screenshot](screenshots/3AIlvshb.png)
+### Human Larva vs Human Birds
+![Screenshot](screenshots/4hlvshb.png	)
+### AI Larva vs AI Birds
+![Screenshot](screenshots/5AIlvsAIb.png)
