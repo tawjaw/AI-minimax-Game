@@ -30,6 +30,7 @@ The programming language used for developing this game is C++. For the GUI, Juce
 The detailed descriotion of the algorithm and the implementation can be found in the pdf file Project_Report.pdf
 
 ## Screenshots
+<b>Note: I do not own the rights for any of the graphics used.<//b>
 ### Main Menu
 ![Screenshot](screenshots/1MainMenu.png)
 ### Human Larva vs AI Birds
