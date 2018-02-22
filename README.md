@@ -30,4 +30,5 @@ The programming language used for developing this game is C++. For the GUI, Juce
 The detailed descriotion of the algorithm and the implementation can be found in the pdf file Project_Report.pdf
 
 ## Screenshots
-###
+### Main Menu
+![alt text](AI-minimax-Game/screenshots/1MainMenu.png "Main Menu")
